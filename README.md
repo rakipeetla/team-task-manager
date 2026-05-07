@@ -47,24 +47,9 @@ It features a premium, glassmorphism UI, robust authentication, and comprehensiv
    - The React app will run on `http://localhost:5173`
    - The Express API will run on `http://localhost:5000`
 
-## Deployment to Railway (Mandatory)
+## Deployment to Railway (Live)
+Can Access My Live Project From here -- > team-task-manager-production-bebd.up.railway.app
 
-This repository is pre-configured to be deployed as a single service on Railway.
 
-1. **Push your code to GitHub.**
-2. Go to [Railway.app](https://railway.app/) and create a new project.
-3. Select **Deploy from GitHub repo** and choose your repository.
-4. Click on the Web Service box on your Railway canvas to open the Service Panel.
-5. In your Service Panel, go to the **Variables** tab and set the following **Service Variables**:
-   - `NODE_ENV`: `production`
-   - `JWT_SECRET`: (Generate a secure random string)
-   - `MONGO_URI`: (Your MongoDB connection string, e.g., `mongodb+srv://...` or direct `mongodb://...`)
-6. Railway will automatically detect the root `package.json`, install dependencies, run the `build` script (which builds the React frontend), and execute the `start` script (which starts the Express server that serves both the API and the static React files).
 
-## Demo Video Instructions
-For your submission, record a 2-5 minute video demonstrating:
-1. The signup and login flow.
-2. Creating a project and adding a member.
-3. Creating a task and updating its status on the Kanban board.
-4. Exploring the dashboard statistics.
-5. Briefly explaining the folder structure and code architecture.
+
